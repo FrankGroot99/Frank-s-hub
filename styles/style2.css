@@ -159,10 +159,10 @@
   footer nav ul:nth-of-type(1) li{
     width: 1em;
   }
-  /* footer nav ul:nth-of-type(2) li{
-    width: 1em;
-    margin-top: 1em;
-  } */
+
+  section ul {
+    padding-left: 0;
+  }
   
   footer nav ul:nth-of-type(1) li img{
     height: 1.8em;
@@ -304,7 +304,6 @@ main li {
     color: white;
     font-family: Awakenings;
     font-size: 36px;
-    margin-left: 0.5em;
   }
 
   
