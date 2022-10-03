@@ -44,7 +44,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de tweede pagina (small screen):
   ade night 
-  <img src="readme-images/breakdown2.png" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/screencapture-awakenings-en-events-2022-10-awakenings-opening-night-185750-2022-10-03-14_07_04.png" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
