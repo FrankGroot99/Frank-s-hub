@@ -181,9 +181,13 @@ h2,h4,p, section {
   }
 
 Hierna heb ik de footer toegevoegd. Op de Awakenings website ziet de footer er als volgt uit:
+  
+   <img src="readme-images/awakeningsfooter.png" width="375px" alt="awakeningsfooter">
 
  
 Ik heb ervoor gekozen om de footer wat groter te maken qua tekst, de afbeelding van de social media groter en meer verspreid, zodat ze makkelijker klik baar zijn. Dat ziet er als volgt uit:
+  
+   <img src="readme-images/mijnfooter.png" width="375px" alt="mijnfooter">
 
 
   ### Agenda voor meeting
