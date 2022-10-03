@@ -103,7 +103,7 @@ Het kleurenblind effect zorgt voor niet een verschil wat de website ongebruiker 
   
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/breakdownmenu.png" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="readme-images/breakdownmenu.PNG" width="375px" alt="breakdown van een dynamisch deel">
 
 
 </details>
