@@ -40,7 +40,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   Homepage 
-  <img src="readme-images/breakdownschets.png" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/sshomepage.png" width="375px" alt="homepage">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   ade night 
