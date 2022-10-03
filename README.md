@@ -43,7 +43,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <img src="readme-images/breakdownschets.png" width="375px" alt="omschrijving van de pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  summerreport  
+  ade night 
   <img src="readme-images/breakdown2.png" width="375px" alt="omschrijving van de pagina">
  
 </details>
