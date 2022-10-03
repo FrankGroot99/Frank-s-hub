@@ -96,7 +96,8 @@
     font-family: awakeningsRegular;
     justify-content: center;
     font-weight: bold;
-  }
+    text-shadow: 0.5px 0.5px 1px black;
+  } 
   
   header img:nth-of-type(2) {
     width: 2em;
@@ -164,7 +165,7 @@
   } */
   
   footer nav ul:nth-of-type(1) li img{
-    height: 1.5em;
+    height: 1.8em;
   }
   
   
@@ -212,7 +213,7 @@ video {
   }
   
   /* page content */
-  h1, h2 {
+  h2 {
     color: white;
     font-family: Trebuchet MS;
     font-weight: bold;
@@ -220,10 +221,6 @@ video {
     z-index: 1;
   }
   
-  h1 {
-    font-size: 6rem;
-    margin-top: 30vh; 
-  }
   
   h2 { font-size: 3rem; }
   
@@ -240,10 +237,11 @@ section{
     padding: 0;
     margin-left: 1.5em;
     margin-right: 1.5em;
-    margin-top: 30em;
+    margin-top: 15em;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    font-weight: bolder;
   }
   
   p, li, a {
@@ -266,8 +264,8 @@ section{
   }
   
   button {
-    margin-top: 1.5em;
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
+    margin-top: 1em;
     padding-top: 1em;
     padding-bottom: 1em;
     padding-left: 9.5em;
@@ -280,9 +278,7 @@ section{
     font-family: Awakenings;
   }
   
-  button:hover {
-    box-shadow: 0 0 0 white;
-  }
+
 
   
   
@@ -348,8 +344,8 @@ main li {
   }
 
   p:nth-of-type(1) {
-    margin-top: 1.8em;
-    font-size: 0.8em;
+    margin-top: 1.2em;
+    font-size: 1em;
   }
 
   
