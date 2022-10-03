@@ -40,11 +40,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   Homepage 
-  <img src="readme-images/homepage.png" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/breakdownschets.png" width="375px" alt="omschrijving van de pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   summerreport  
-  <img src="readme-images/summerreport.png" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/breakdown2.png" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
@@ -98,13 +98,13 @@ Het kleurenblind effect zorgt voor niet een verschil wat de website ongebruiker 
   <summary>uitwerken na afloop 2e werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/breakdownschets.png" width="375px" alt="breakdown schets 1">
+  <img src="readme-images/breakdown2.png" width="375px" alt="breakdown schets 2">
+  
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="readme-images/breakdownmenu.png" width="375px" alt="breakdown van een dynamisch deel">
 
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
 
@@ -165,11 +165,11 @@ Dit zorgt ervoor dat die niet zichtbaar is.
 Bij de slider van de header heb ik de tekst een donkerdere kleur zwart gegeven, wat meer witruimte en een text-shadow (text-shadow: 1px 1px 0px black;) zodat het beter leesbaar is.
 Awakenings versie:
 
- <img src="readme-images/awakeningsheader.png" width="375px" alt="awakeningsheader">
+ <img src="readme-images/awakeningsheadr.PNG" width="375px" alt="awakeningsheader">
  
 Mijn versie:
 
-<img src="readme-images/mijnheader.png" width="375px" alt="mijnheader">
+<img src="readme-images/mijnheder.PNG" width="375px" alt="mijnheader">
  
 Wat ik heb toegevoegd deze week is een text-shadow aan de alle tekst op de plaatjes behalve de h3’s. Dit waren transparante letters met een stroke, als ik hierbij een normale text-shadow toevoegde werd de binnenkant zwart. Dit heb ik anders gedaan, namelijk met een svg filter:
 h2,h4,p, section {
