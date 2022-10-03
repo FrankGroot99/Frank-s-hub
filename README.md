@@ -165,11 +165,11 @@ Dit zorgt ervoor dat die niet zichtbaar is.
 Bij de slider van de header heb ik de tekst een donkerdere kleur zwart gegeven, wat meer witruimte en een text-shadow (text-shadow: 1px 1px 0px black;) zodat het beter leesbaar is.
 Awakenings versie:
 
- <img src="readme-images/awakeningsheader.jpg" width="375px" alt="awakeningsheader">
+ <img src="readme-images/awakeningsheader.png" width="375px" alt="awakeningsheader">
  
 Mijn versie:
 
-<img src="readme-images/mijnheader.jpg" width="375px" alt="awakeningsheader">
+<img src="readme-images/mijnheader.png" width="375px" alt="mijnheader">
  
 Wat ik heb toegevoegd deze week is een text-shadow aan de alle tekst op de plaatjes behalve de h3’s. Dit waren transparante letters met een stroke, als ik hierbij een normale text-shadow toevoegde werd de binnenkant zwart. Dit heb ik anders gedaan, namelijk met een svg filter:
 h2,h4,p, section {
