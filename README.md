@@ -16,7 +16,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Auteur:
-  Frank 
+  Frank (vervangen door jouw naam)
 
   #### Je startniveau:
   rood
@@ -40,11 +40,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   Homepage 
-  https://www.awakenings.com/en/
+  <img src="readme-images/homepage.png" width="375px" alt="omschrijving van de pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   summerreport  
-  https://www.awakenings.com/en/events/2022/10/awakenings-opening-night/185750/
+  <img src="readme-images/summerreport.png" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
