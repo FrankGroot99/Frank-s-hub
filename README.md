@@ -99,6 +99,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   
 
   ### dynamisch deel (bijv menu): 
+  Onderdeel de eerste screenshot bovenaan. Een slide menu met een ul li en images. 
   
 
 
