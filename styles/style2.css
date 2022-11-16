@@ -30,8 +30,15 @@
   /*********************/
   :root {
       /* startje */
-      --color-text:#111;
-      --color-background:#eee;
+      --Tekst-kleur: white;
+      --Achtergrond-kleur: White;
+      --Knop-kleur: #ff0057;
+      --Knop-schaduw: #aa0039;
+
+      --Contrast-tekst-kleur: black;
+      --contrast-achtergrond: Yellow;
+
+  
   }
   
   
@@ -91,12 +98,13 @@
   
   header a {
     color: black;
-    font-size: 0.7em;
+    font-size: 1em;
     top: 1em;
     font-family: awakeningsRegular;
     justify-content: center;
     font-weight: bold;
     text-shadow: 0.5px 0.5px 1px black;
+    text-transform: uppercase;
   } 
   
   header img:nth-of-type(2) {
@@ -108,7 +116,7 @@
   }
 
   header {
-    background: white;
+    background: var(--Achtergrond-kleur);
   }
   
   /*russel heeft me deze tip gegeven om de scrollbar te verbergen*/
@@ -122,8 +130,8 @@
     font-family: awakeningsRegular;
     font-weight: 100;
     background-color: transparent;
-  color: white;
-  margin-top: 2em;
+    color: var(--Tekst-kleur);
+    margin-top: 2em;
   }
   
   
@@ -187,16 +195,7 @@
   footer ul:nth-of-type(5) li{
     margin-top: 1em;
   }
-  
 
-  
-video {
-    width: 100%;
-    height: 70em;
-    padding: 0;
-    margin: 0;
-    object-fit: cover;
-  }
 
 
   /* video background */
@@ -214,7 +213,7 @@ video {
   
   /* page content */
   h2 {
-    color: white;
+    color:var(--Tekst-kleur);
     font-family: Trebuchet MS;
     font-weight: bold;
     text-align: center;
@@ -224,14 +223,6 @@ video {
   
   h2 { font-size: 3rem; }
   
-  /* @media (max-width: 750px) {
-      #background-video { display: none; }
-      body {
-        background: url("https://assets.codepen.io/6093409/river.jpg") no-repeat;
-        background-size: cover;
-      }
-  } */
-
   
 section{
     padding: 0;
@@ -246,7 +237,7 @@ section{
   
   p, li, a {
     font-family: awakeningsRegular;
-    color: white;
+    color: var(--Tekst-kleur);
   }
   
   h2,h4,p, section {
@@ -272,9 +263,9 @@ section{
     padding-right: 9.5em;
     /* border-radius: 10%; */
     font-size: 18px;
-    background-color: #ff0057;
-    box-shadow:  4px px 0px #aa0039;
-    color: white;
+    background-color: var(--Knop-kleur);
+    box-shadow:  4px px 0px var(--Knop-schaduw);
+    color: var(--Tekst-kleur);
     font-family: Awakenings;
   }
   
@@ -284,7 +275,7 @@ section{
   
 a {
     text-decoration: none;
-    color: white;
+    color: var(--Tekst-kleur);
     text-transform: uppercase;
   }
 
@@ -301,14 +292,14 @@ main li {
   }
   
   h4{
-    color: white;
+    color: var(--Tekst-kleur);
     font-family: Awakenings;
     font-size: 36px;
   }
 
   
   h2 {
-    color: white;
+    color: var(--Tekst-kleur);
     position: absolute;
     font-family: Awakenings;
     font-size: 36px;
@@ -323,9 +314,10 @@ main li {
   
   
   h3 {
+
     color: transparent;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-color: var(--Tekst-kleur);
     position: absolute;
     font-size: 36px;
     font-family: Awakenings;
@@ -334,7 +326,7 @@ main li {
   }
   
   p{
-    color: white;
+    color: var(--Tekst-kleur);
     font-size: 1em;
     top: 1em;
     font-family: awakeningsRegular;
@@ -352,5 +344,53 @@ main > ul > li > p:nth-of-type(2){
     position: absolute;
     margin-top: 1.8em;
     font-size: 0.9em;
-    margin-top: 21em;
+    margin-top: 22em;
   }
+
+
+
+  header button {
+    float: right;
+    margin-top: 0.5em;
+    padding: 0.7em;
+    border-radius: 0.7em;
+    background-color: var(--Knop-kleur);
+    color: var(--Tekst-kleur);
+    font-size: 1em;
+    font-weight: bolder;
+    font-family: awakeningsRegular;
+}
+  
+
+header button img {
+  width: 1.2em;
+  float: right;
+  margin-left: 1em;
+  filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(131deg) brightness(102%) contrast(101%);
+}
+
+/* table source https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table#:~:text=The%20HTML%20element%20represents,columns%20of%20cells%20containing%20data. */
+table {
+  color: var(--Tekst-kleur);
+  width: 100%;
+}
+
+th{
+  float: left;
+  font-family: Awakenings;
+  font-size: 36px;
+
+}
+
+td{
+  font-family: awakeningsRegular;
+  text-transform: uppercase;
+  font-size: 1.2em;
+}
+
+
+td:nth-of-type(2){
+  float: right;
+}
+
+
