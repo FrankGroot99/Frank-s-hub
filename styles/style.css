@@ -81,8 +81,16 @@ table {
 /*********************/
 :root {
 	/* startje */
-	--color-text:#111;
-	--color-background:#eee;
+	--Tekst-kleur-wit:white;
+	--Tekst-kleur-zwart: Black;
+    --Tekst-shaduw: Black;
+    --Footer-tekst: Gray;
+    --Knop-kleur: #ff0057;
+    --Knop-schaduw: #aa0039;
+
+    --Contrast-tekst-kleur: black;
+    --contrast-achtergrond: Yellow;
+    --Achtergrond-kleur: rgb(54, 54, 54);
 }
 
 
@@ -140,16 +148,18 @@ header nav ul li {
 header nav li img{  
      border-radius: 50%;
      width: 4em;
+     transition: 0.4s;
 }
 
 header a {
-    color: black;
-    font-size: 0.7em;
+    color: var(--Tekst-kleur-zwart);
+    font-size: 1em;
     top: 1em;
     font-family: awakeningsRegular;
     justify-content: center;
     font-weight: bold;
     text-shadow: 0.5px 0.5px 1px black;
+    text-transform: uppercase;
 }
 
 header img:nth-of-type(2) {
@@ -211,7 +221,7 @@ main ul li {
 }
 
 h2 {
-    color: white;
+    color: var(--Tekst-kleur-wit);
     position: absolute;
     font-family: Awakenings;
     font-size: 36px;
@@ -225,7 +235,7 @@ h2 {
 h3 {
     color: transparent;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-color: var(--Tekst-kleur-wit);
     position: absolute;
     font-size: 36px;
     font-family: Awakenings;
@@ -243,7 +253,7 @@ h2, h3, a {
 }
 main ul li a {
     text-decoration: none;
-    color: white;
+    color: var(--Tekst-kleur-wit);
     position: absolute;
     bottom: 1em;
     font-family: Awakenings;
@@ -255,7 +265,7 @@ main ul li a {
 }
 
 section a, h2 {
-    text-shadow: 1px 1px 0px black;
+    text-shadow: 1px 1px 0px var(--Tekst-shaduw);
 }
 
 /* https://css-tricks.com/adding-shadows-to-svg-icons-with-css-and-svg-filters/ */
@@ -288,7 +298,7 @@ footer ul{
     max-width: 80em;
     margin-top: 0.7em;
     padding-left: 0;
-    text-transform: uppercase   ;
+    text-transform: uppercase;
 }
 
 footer li{
@@ -329,8 +339,135 @@ li:nth-of-type(5) h3{
 }
 
 
+footer ul:nth-of-type(0) li{
+    background-color: none;
+
+}
 
 footer ul:nth-of-type(5) li{
     margin-top: 1em;
-    color: gray;
+    color: var(--Footer-tekst);
 }
+
+.fotocontrast{
+    opacity: 0;
+}
+
+
+.contrasttekst{
+    color: var(--Contrast-tekst-kleur);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: red;
+}
+
+.footercontrast{
+    color: var(--Contrast-tekst-kleur);
+    background-color: var(--contrast-achtergrond);
+    font-weight: 700;
+    font-size: 1.2em;
+    padding: 0.2em;
+}
+
+.contrastlijst{
+    border: 2px solid black;
+    background-color: var(--contrast-achtergrond);
+}
+
+.menufoto1{
+    width: 6em;
+}
+
+.contrastsubtekst {
+    text-shadow: none;
+    font-size: 1.2em;
+    font-weight: bolder;
+    background: var(--contrast-achtergrond);
+    font-family: Awakenings;
+}
+
+
+  
+  .contrastknop {
+    position: absolute;
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+    width: 40px;
+    height: 40px;
+    background: var(--Knop-kleur);
+    border-radius: 30px;
+    cursor: pointer;
+  }
+  
+  .contrastknop.clicked {
+    animation: scale 0.3s ease-in-out 0.9s both, shrink 4s ease-in-out forwards;
+  }
+  
+  @keyframes scale {
+    0%, 100% {
+      transform: scale(1);
+    }
+    33% {
+      transform: scale(1.1);
+    }
+    66% {
+      transform: scale(0.9);
+    }
+  }
+  
+  .contrastknop span img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--Tekst-kleur-wit);
+    pointer-events: none;
+    filter: brightness(0) invert(1);
+  }
+  
+
+  .contrastknop.clicked span {
+    animation: spanShrink 4s ease-in-out forwards;
+  }
+  
+  @keyframes spanShrink {
+    15% {
+     opacity: 0;
+    }
+    85% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 100;
+    }
+  }
+  
+  .contrastknop .checkmark {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    stroke-width: 3;
+    stroke: var(--Tekst-kleur-wit);
+    stroke-miterlimit: 10;
+    width: 56px;
+    height: 56px;
+    transform-origin: 50% 50%;
+    stroke-dasharray: 48;
+    stroke-dashoffset: 48;
+  }
+  
+  .contrastknop.clicked .checkmark {
+    animation: stroke 4s ease-in-out 0.6s forwards;
+  }
+  
+  @keyframes stroke {
+    20% {
+      stroke-dashoffset: 0;
+    }
+    50% {
+      stroke-dashoffset: 0;
+    }
+    70% {
+      stroke-dashoffset: 48;
+    }
+  }
