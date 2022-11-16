@@ -94,7 +94,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 2e werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/breakdownschets.png" width="375px" alt="breakdown schets 1">
+  <img src="readme-images/breakdown1.png" width="375px" alt="breakdown schets 1">
   <img src="readme-images/breakdown2.png" width="375px" alt="breakdown schets 2">
   
 
@@ -275,6 +275,8 @@ Ik heb ervoor gekozen om de footer wat groter te maken qua tekst, de afbeelding 
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
 
+
+
   ### Agenda voor meeting
   samen met je groepje opstellen
 
@@ -310,19 +312,38 @@ Ik heb ervoor gekozen om de footer wat groter te maken qua tekst, de afbeelding 
 
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatjes
-  Ik had de vormgeving van de website zelf sneller na kunnen maken dan gedacht. Ik heb geleerd op welke websites in ik nou nuttige informatie kan vinden, 
-  en welke niet. 
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  Ik had de vormgeving van de website zelf sneller na kunnen maken dan gedacht. Ik heb geleerd op welke websites in ik nou nuttige informatie kan vinden, 
+  en welke niet. Ik heb een beter begrip gekregen van de code en wat het nou daadwerkelijk allemaal inhoud, wat ook een van mijn punten was waar ik mezelf
+  aan wou verbeteren! 
+
+   <img src="readme-images/microinteractie" width="375px" alt="microinteractie">
+
+  Het namaken met een grayfilter van de afbeelding ging me goed af
+
+  <img src="readme-images/grayscale" width="375px" alt="gryscale">
+
+
+
 
 
   ### Dit was lastig/Is niet gelukt:
   Korte omschrijving met plaatjes
   
   Het is me niet gelukt om de knop de laten verdwijnen tijdens het scrollen. Door ziekte was ik af en toe niet in de les en dan merk je snel
-  dat je een achterstand opbouwt wat geen fijn begin was.
+  dat je een achterstand opbouwt wat geen fijn begin was. In plaats van dat het verdwijnt wanneer je scrollt, heb ik hem onder de timetable gezet. Wat ik ook 
+  lastig vond was de microinteractie. Dit duurde erg lang voordat me dit gelukt was en ik de code die er stond begreep.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+In eerste instantie lukte het me niet om de footer achtergrond transparant te hebben met de video erbij op de achtergrond. dit heb ik als volgt opgelost:
+
+<img src="readme-images/footer" width="375px" alt="footer code">
+<img src="readme-images/video" width="375px" alt="video code">
+
+
+
+
+
+
 </details>
 
 
