@@ -9,12 +9,12 @@
     <title>ADE night - 19 October</title>
 
     <link href="styles/style2.css" rel="stylesheet">
-    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
 </head>
 
 <header>
     <img src="Content/Foto's/logo.svg">
-    <img src="Content/Foto's/hamburger menu.svg">
+    <img src="Content/Foto's/hamburger menu.svg"> 
+    <button class="contrastknop">Contrast<img src="Content/Foto's/Menu/contrast.svg" alt="contrast knop"></button>
     <nav>
         <ul>
             <li><img src="Content/Foto's/Menu/AW_GAS19-WEB-THUMB.png" alt="Awakeningslogo" class="menufoto1"><a
@@ -37,7 +37,7 @@
 </header>
 
 
-<body>
+<body class="contrast">
     <main>
         <!-- https://blog.hubspot.com/website/video-background-css het zetten van een filmpje op de achtergrond -->
         <video autoplay loop muted>
@@ -55,16 +55,44 @@
             </li>
         </ul>
         <section>
-            <h4>Line-up</h4>
-            <ul>
-                <li>22:00 - 23:30<a href="#">ur trax</a></li>
-                <li>22:00 - 23:30<a href="#">Vladimir Dubyshkin</a></li>
-                <li>22:00 - 23:30<a href="#">Nina kraviz</a></li>
-                <li>22:00 - 23:30<a href="#">hector oaks</a></li>
-                <li>22:00 - 23:30<a href="#">paula temple</a></li>
-                <li>22:00 - 23:30<a href="#">cera khin</a></li>
-                <li>22:00 - 23:30<a href="#">Reiier zonneveld</a></li>
-            </ul>
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="2">Line-up</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>22:00 - 23:30</td>
+                        <td>ur trax</td>
+                    </tr>
+                    <tr>
+                        <td>22:00 - 23:30</td>
+                        <td>Vladimir Dubyshkin</td>
+                    </tr>
+                    <tr>
+                        <td>22:00 - 23:30</td>
+                        <td>Nina Kraviz</td>
+                    </tr>
+                    <tr>
+                        <td>22:00 - 23:30</td>
+                        <td>hector oaks</td>
+                    </tr>
+                    <tr>
+                        <td>22:00 - 23:30</td>
+                        <td>Paula temple</td>
+                    </tr>
+                    <tr>
+                        <td>22:00 - 23:30</td>
+                        <td>cera khin</td>
+                    </tr>
+                    <tr>
+                        <td>22:00 - 23:30</td>
+                        <td>reinier zonneveld</td>
+                    </tr>
+                </tbody>
+            </table>
+            
         </section>
         <div>
             <button type="button" class="fade">Get Tickets</button>
