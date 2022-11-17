@@ -317,11 +317,11 @@ Ik heb ervoor gekozen om de footer wat groter te maken qua tekst, de afbeelding 
   en welke niet. Ik heb een beter begrip gekregen van de code en wat het nou daadwerkelijk allemaal inhoud, wat ook een van mijn punten was waar ik mezelf
   aan wou verbeteren! 
 
-   <img src="readme-images/microinteractie" width="375px" alt="microinteractie">
+   <img src="readme-images/microinteractie.png" width="375px" alt="microinteractie">
 
   Het namaken met een grayfilter van de afbeelding ging me goed af
 
-  <img src="readme-images/grayscale" width="375px" alt="gryscale">
+  <img src="readme-images/grayscale.ong" width="375px" alt="gryscale">
 
 
 
@@ -336,8 +336,8 @@ Ik heb ervoor gekozen om de footer wat groter te maken qua tekst, de afbeelding 
 
 In eerste instantie lukte het me niet om de footer achtergrond transparant te hebben met de video erbij op de achtergrond. dit heb ik als volgt opgelost:
 
-<img src="readme-images/footer" width="375px" alt="footer code">
-<img src="readme-images/video" width="375px" alt="video code">
+<img src="readme-images/footer.png" width="375px" alt="footer code">
+<img src="readme-images/video.png" width="375px" alt="video code">
 
 
 
