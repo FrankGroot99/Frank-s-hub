@@ -166,7 +166,7 @@ h2 elementje. Om te voorkomen dat de browsers waarde meegaf heb ik een css reset
  
   Mijn versie:
 
-  <img src="readme-images/mijnheder.PNG" width="375px" alt="mijnheader">
+  <img src="readme-images/mijnheader.PNG" width="375px" alt="mijnheader">
  
    Wat ik heb toegevoegd deze week is een text-shadow aan de alle tekst op de plaatjes behalve de h3’s. Dit waren transparante letters met een stroke, als ik hierbij   een normale text-shadow toevoegde werd de binnenkant zwart. Dit heb ik anders gedaan, namelijk met een svg filter:
 h2,h4,p, section {
@@ -179,12 +179,12 @@ h2,h4,p, section {
 
 Hierna heb ik de footer toegevoegd. Op de Awakenings website ziet de footer er als volgt uit:
   
-   <img src="readme-images/awakeningsfooter.png" width="375px" alt="awakeningsfooter">
+   <img src="readme-images/awakeningsfooter.PNG" width="375px" alt="awakeningsfooter">
 
  
 Ik heb ervoor gekozen om de footer wat groter te maken qua tekst, de afbeelding van de social media groter en meer verspreid, zodat ze makkelijker klik baar zijn. Dat ziet er als volgt uit:
   
-   <img src="readme-images/mijnfooter.png" width="375px" alt="mijnfooter">
+   <img src="readme-images/mijnfooter.PNG" width="375px" alt="mijnfooter">
 
 
   ### Agenda voor meeting
@@ -305,9 +305,9 @@ Ik heb ervoor gekozen om de footer wat groter te maken qua tekst, de afbeelding 
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/eindresultaat" width="375px" alt="uitomst opdracht 1">
-  <img src="readme-images/eindresultaat1" width="375px" alt="uitomst opdracht 1">
-  <img src="readme-images/eindresultaatcontrast" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/eindresultaat.PNG" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/eindresultaat1.PNG" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/eindresultaatcontrast.PNG" width="375px" alt="uitomst opdracht 1">
 
 
   ### Dit ging goed/Heb ik geleerd: 
@@ -317,11 +317,11 @@ Ik heb ervoor gekozen om de footer wat groter te maken qua tekst, de afbeelding 
   en welke niet. Ik heb een beter begrip gekregen van de code en wat het nou daadwerkelijk allemaal inhoud, wat ook een van mijn punten was waar ik mezelf
   aan wou verbeteren! 
 
-   <img src="readme-images/microinteractie.png" width="375px" alt="microinteractie">
+   <img src="readme-images/microinteractie.PNG" width="375px" alt="microinteractie">
 
   Het namaken met een grayfilter van de afbeelding ging me goed af
 
-  <img src="readme-images/grayscale.ong" width="375px" alt="gryscale">
+  <img src="readme-images/grayscale.PNG" width="375px" alt="gryscale">
 
 
 
@@ -336,8 +336,8 @@ Ik heb ervoor gekozen om de footer wat groter te maken qua tekst, de afbeelding 
 
 In eerste instantie lukte het me niet om de footer achtergrond transparant te hebben met de video erbij op de achtergrond. dit heb ik als volgt opgelost:
 
-<img src="readme-images/footer.png" width="375px" alt="footer code">
-<img src="readme-images/video.png" width="375px" alt="video code">
+<img src="readme-images/footer.PNG" width="375px" alt="footer code">
+<img src="readme-images/video.PNG" width="375px" alt="video code">
 
 
 
